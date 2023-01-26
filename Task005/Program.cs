@@ -1,2 +1,23 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// апишите программу,которая на вход принимает одно число (N),
+// а на выходе показывает все целые числа в промежутке от -N до N
+// 4->"-4,-3,-2.....2,3,4"
+
+Console.WriteLine("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num > 0)
+{
+    int count = -num;
+
+
+    while (count <= num)
+    {
+        Console.Write(count + " ");
+        count++;
+
+
+    }
+}
+else
+{
+    Console.WriteLine("Число должно быть больше 0");
+}
