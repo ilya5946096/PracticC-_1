@@ -41,3 +41,9 @@ else if(a==7)
     Console.WriteLine("это воскресенье");
 
 else Console.WriteLine("Введено некоректное значение");
+
+
+
+
+
+
